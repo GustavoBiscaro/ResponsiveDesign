@@ -1,1 +1,37 @@
-﻿
+﻿@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #faf9f9;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Cabeçalho */
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(../_images/Logo.png);
+    font-size: 0;
+}
